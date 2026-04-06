@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Tarkvaraarenduse_Projekt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Akna loomine ja kujundid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liikuv ruut ekraanil.py" afterDir="false" />
+    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Akna loomise ülesanne">
+      <change afterPath="$PROJECT_DIR$/Akna loomine ja kujundid lisa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Akna loomine ja kujundid lisa.executor": "Run",
     "Python.Akna loomine ja kujundid.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,12 +75,24 @@
       <option name="presentableId" value="Default" />
       <updated>1775469162678</updated>
       <workItem from="1775469163797" duration="59000" />
-      <workItem from="1775471056332" duration="1674000" />
+      <workItem from="1775471056332" duration="3037000" />
     </task>
+    <task id="LOCAL−00001" summary="Akna loomise ülesanne">
+      <option name="closed" value="true" />
+      <created>1775472787050</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1775472787050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Akna loomise ülesanne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Akna loomise ülesanne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -96,5 +104,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1775473637544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid_lisa.coverage" NAME="Akna loomine ja kujundid lisa Coverage Results" MODIFIED="1775473995776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
