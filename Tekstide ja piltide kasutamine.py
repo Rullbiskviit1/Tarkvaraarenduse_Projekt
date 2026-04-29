@@ -12,10 +12,11 @@ pygame.display.set_caption("Ülesanne 2")
 
 # 3. Piltide laadimine
 # Kasutame transform.scale, et taustapilt kataks kindlasti terve 640x480 akna
-taust = pygame.image.load("Pilt.jpg")
+taust = pygame.image.load("bgshop.jpg")
 taust = pygame.transform.scale(taust, (ekraani_laius, ekraani_korgus))
 
 muuja = pygame.image.load("seller.png")
+muuja = pygame.transform.scale(muuja, [265, 314])
 jutumull = pygame.image.load("chat.png")
 
 # 4. Teksti seadistamine
@@ -40,7 +41,7 @@ while tootab:
     ekraan.blit(taust, (0, 0))
 
     # Joonistame müüja (MUÜDA NEID NUMBREID, ET MÜÜJAT LIIGUTADA: (x, y))
-    ekraan.blit(muuja, (10, 180))
+    ekraan.blit(muuja, (90, 160))
 
     # Joonistame jutumulli (MUÜDA NEID NUMBREID: (x, y))
     ekraan.blit(jutumull, (240, 50))
