@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Ü2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="PyGame">
+      <change beforePath="$PROJECT_DIR$/Akna loomine ja kujundid lisa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Akna loomine ja kujundid lisa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1777879065546" duration="5398000" />
       <workItem from="1778134523994" duration="3025000" />
       <workItem from="1779186414222" duration="905000" />
-      <workItem from="1779863297523" duration="972000" />
+      <workItem from="1779863297523" duration="1328000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -167,7 +167,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1778142387042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="PyGame">
+      <option name="closed" value="true" />
+      <created>1779864778703</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1779864778703</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +184,8 @@
     <MESSAGE value="Akna loomise ülesanne" />
     <MESSAGE value="Akna loomise lisaülesanne" />
     <MESSAGE value="Ü2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ü2" />
+    <MESSAGE value="PyGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="PyGame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
