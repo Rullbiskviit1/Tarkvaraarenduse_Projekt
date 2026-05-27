@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Ü2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tsüklid ja funktsioonid sissejuhatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tsüklid ja funktsioonid sissejuhatus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,9 @@
       <workItem from="1777455293954" duration="7815000" />
       <workItem from="1777878682684" duration="180000" />
       <workItem from="1777879065546" duration="5398000" />
-      <workItem from="1778134523994" duration="2547000" />
+      <workItem from="1778134523994" duration="3025000" />
+      <workItem from="1779186414222" duration="905000" />
+      <workItem from="1779863297523" duration="972000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -159,7 +160,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1777886303263</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Ü2">
+      <option name="closed" value="true" />
+      <created>1778142387042</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1778142387042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

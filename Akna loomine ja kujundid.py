@@ -1,41 +1,68 @@
-from tkinter import *
+import pygame
+import sys
 
-# 1. Tekitame uue akna ja määrame suuruse (300x300)
-aken = Tk()
-aken.geometry("300x300")
+# 1. Initsialiseerime PyGame'i ja tekitame uue akna (300x300)
+pygame.init()
+aken = pygame.display.set_mode((300, 300))
 
 # 2. Lisame programmiaknale töönime ja omanime
-aken.title("Lumemees – Steven Jürimäe")
+pygame.display.set_caption("Lumemees – Steven Jürimäe")
 
-# 3. Loome joonistusala (Canvas)
-# Valime taustavärviks helesinise (lightblue), et valge lumemees oleks hästi nähtav
-tahvel = Canvas(aken, width=300, height=300, bg="lightblue")
-tahvel.pack()
+# Värvide definitsioonid (RGB-vormingus)
+HELESINIHE = (173, 216, 230)
+VALGE = (255, 255, 255)
+MUST = (0, 0, 0)
+ORANZ = (255, 165, 0)
 
-# 4. Joonistame objektid (lumemehe 3 palli)
-# Koordinaadid on valitud nii, et lumemees täidaks akna mõistlikkuse piires
+# Kell mängukiiruse (FPS) juhtimiseks
+kell = pygame.time.Clock()
 
-# Alumine pall (kõige suurem)
-tahvel.create_oval(80, 160, 220, 290, fill="white", outline="black")
+# Programmi põhitsükkel
+running = True
+while running:
+    # Kontrollime sündmusi (et aken sulguks ristist vajutades)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
 
-# Keskmine pall
-tahvel.create_oval(100, 70, 200, 170, fill="white", outline="black")
+    # 3. Valime taustavärviks helesinise
+    aken.fill(HELESINIHE)
 
-# Ülemine pall (pea)
-tahvel.create_oval(115, 10, 185, 80, fill="white", outline="black")
+    # 4. Joonistame objektid (lumemehe 3 palli)
+    # PyGame kasutab vormingut: [x, y, laius, kõrgus]
 
-# --- Lisadetailid, et objekt oleks selgelt lumemees ---
-# Silmad
-tahvel.create_oval(135, 30, 145, 40, fill="black")
-tahvel.create_oval(155, 30, 165, 40, fill="black")
+    # Alumine pall (kõige suurem)
+    pygame.draw.ellipse(aken, VALGE, [80, 160, 140, 130])
+    pygame.draw.ellipse(aken, MUST, [80, 160, 140, 130], 1)  # Must äär
 
-# Porgandnina (kolmnurk)
-tahvel.create_polygon(150, 45, 150, 55, 175, 50, fill="orange", outline="black")
+    # Keskmine pall
+    pygame.draw.ellipse(aken, VALGE, [100, 70, 100, 100])
+    pygame.draw.ellipse(aken, MUST, [100, 70, 100, 100], 1)
 
-# Nööbid keskmisele pallile
-tahvel.create_oval(145, 90, 155, 100, fill="black")
-tahvel.create_oval(145, 115, 155, 125, fill="black")
-tahvel.create_oval(145, 140, 155, 150, fill="black")
+    # Ülemine pall (pea)
+    pygame.draw.ellipse(aken, VALGE, [115, 10, 70, 70])
+    pygame.draw.ellipse(aken, MUST, [115, 10, 70, 70], 1)
 
-# Hoiame akent avatuna, kuni kasutaja selle sulgeb
-aken.mainloop()
+    # --- Lisadetailid ---
+    # Silmad
+    pygame.draw.ellipse(aken, MUST, [135, 30, 10, 10])
+    pygame.draw.ellipse(aken, MUST, [155, 30, 10, 10])
+
+    # Porgandnina (kolmnurk)
+    pygame.draw.polygon(aken, ORANZ, [(150, 45), (150, 55), (175, 50)])
+    pygame.draw.polygon(aken, MUST, [(150, 45), (150, 55), (175, 50)], 1)
+
+    # Nööbid keskmisele pallile
+    pygame.draw.ellipse(aken, MUST, [145, 90, 10, 10])
+    pygame.draw.ellipse(aken, MUST, [145, 115, 10, 10])
+    pygame.draw.ellipse(aken, MUST, [145, 140, 10, 10])
+
+    # Uuendame ekraani graafikat
+    pygame.display.flip()
+
+    # Piirame tsükli kiirust (60 kaadrit sekundis)
+    kell.tick(60)
+
+# Sulgeme PyGame'i puhtalt, kui tsükkel lõppeb
+pygame.quit()
+sys.exit()
