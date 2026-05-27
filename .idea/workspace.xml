@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="PyGame">
-      <change beforePath="$PROJECT_DIR$/Akna loomine ja kujundid lisa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Akna loomine ja kujundid lisa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objektide animeerimine sissejuhatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1777879065546" duration="5398000" />
       <workItem from="1778134523994" duration="3025000" />
       <workItem from="1779186414222" duration="905000" />
-      <workItem from="1779863297523" duration="1328000" />
+      <workItem from="1779863297523" duration="3839000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -174,7 +175,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1779864778703</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="PyGame">
+      <option name="closed" value="true" />
+      <created>1779865020309</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1779865020309</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,8 +210,8 @@
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine_lisa.coverage" NAME="Tekstide ja piltide kasutamine lisa Coverage Results" MODIFIED="1777465406665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid.coverage" NAME="Tsüklid ja funktsioonid Coverage Results" MODIFIED="1778139495447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine.coverage" NAME="Tekstide ja piltide kasutamine Coverage Results" MODIFIED="1777455877950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1778135176040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid_lisa.coverage" NAME="Akna loomine ja kujundid lisa Coverage Results" MODIFIED="1775547810368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1779864727177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid_lisa.coverage" NAME="Akna loomine ja kujundid lisa Coverage Results" MODIFIED="1779867675351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid_sissejuhatus.coverage" NAME="Tsüklid ja funktsioonid sissejuhatus Coverage Results" MODIFIED="1777880957600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
