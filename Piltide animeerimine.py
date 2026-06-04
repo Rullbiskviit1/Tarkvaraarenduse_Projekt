@@ -8,12 +8,17 @@ pygame.init()
 laius = 640
 kõrgus = 480
 ekraan = pygame.display.set_mode((laius, kõrgus))
-pygame.display.set_caption("Ralli Mäng")
+pygame.display.set_caption("Ralli Mäng - Pööratud Sinised Autod")
 
 # Piltide laadimine
 taust = pygame.image.load("bg_rally.jpg")
 punane_auto = pygame.image.load("f1_red.png")
-sinine_auto = pygame.image.load("f1_blue.png")
+sinine_auto_algne = pygame.image.load("f1_blue.png")
+
+# --- SINISED AUTOD: PÖÖRAMINE ---
+# Pöörame algset sinist autot 180 kraadi, et selle nina oleks allapoole.
+# Pygame'i pööramine toimub vastupäeva, nii et 180 kraadi pöörab selle "põhjalikuks".
+sinine_auto = pygame.transform.rotate(sinine_auto_algne, 180)
 
 # --- SÕIDURAJAD ---
 # Määrame kolme sõiduraja keskkohad (x-koordinaadid).
@@ -30,6 +35,7 @@ punane_kiirus = 5 # Punase auto liikumiskiirus vasakule/paremale
 
 # --- SINISED AUTOD ---
 sinised_autod = []
+# Kasutame nüüd uut, pööratud auto suurust
 sinine_laius = sinine_auto.get_width()
 
 # Loome iga raja jaoks ühe sinise auto
@@ -71,7 +77,7 @@ while mang_kaib:
 
     # 4. Siniste autode loogika ja joonistamine
     for auto in sinised_autod:
-        auto[1] += auto[2]
+        auto[1] += auto[2] # Auto liigub y-teljel alla (suureneb koordinaat)
 
         # Kui auto jõuab alla, viime selle tagasi üles
         if auto[1] > kõrgus:
@@ -79,6 +85,8 @@ while mang_kaib:
             auto[2] = random.randint(3, 6)
             skoor += 1
 
+        # Joonistame pööratud auto. (auto[0], auto[1]) on endiselt selle vasak ülanurk,
+        # aga kuna pilt on pööratud 180 kraadi, on selle nina suunatud "põhjapoole".
         ekraan.blit(sinine_auto, (auto[0], auto[1]))
 
     # 5. Punase auto joonistamine
