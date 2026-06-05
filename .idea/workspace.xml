@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Obje animeerimise sissejuhatus">
+    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="pingpong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,37 +56,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Akna loomine ja kujundid lisa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Akna loomine ja kujundid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Objektide animeerimine sissejuhatus 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Objektide animeerimine sissejuhatus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Piltide animeerimine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tekstide ja piltide kasutamine lisa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tekstide ja piltide kasutamine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tsüklid ja funktsioonid sissejuhatus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tsüklid ja funktsioonid.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Akna loomine ja kujundid lisa.executor": "Run",
+    "Python.Akna loomine ja kujundid.executor": "Run",
+    "Python.Objektide animeerimine sissejuhatus 2.executor": "Run",
+    "Python.Objektide animeerimine sissejuhatus.executor": "Run",
+    "Python.Piltide animeerimine.executor": "Run",
+    "Python.Ping-Pong.executor": "Run",
+    "Python.Tekstide ja piltide kasutamine lisa.executor": "Run",
+    "Python.Tekstide ja piltide kasutamine.executor": "Run",
+    "Python.Tsüklid ja funktsioonid sissejuhatus.executor": "Run",
+    "Python.Tsüklid ja funktsioonid.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,7 +115,7 @@
       <workItem from="1779186414222" duration="905000" />
       <workItem from="1779863297523" duration="5392000" />
       <workItem from="1780553574992" duration="2333000" />
-      <workItem from="1780652255401" duration="483000" />
+      <workItem from="1780652255401" duration="1403000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -214,7 +215,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1780555410825</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="pingpong">
+      <option name="closed" value="true" />
+      <created>1780652965130</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1780652965131</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +234,8 @@
     <MESSAGE value="Ü2" />
     <MESSAGE value="PyGame" />
     <MESSAGE value="Obje animeerimise sissejuhatus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Obje animeerimise sissejuhatus" />
+    <MESSAGE value="pingpong" />
+    <option name="LAST_COMMIT_MESSAGE" value="pingpong" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,6 +256,7 @@
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine.coverage" NAME="Tekstide ja piltide kasutamine Coverage Results" MODIFIED="1777455877950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1779864727177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Objektide_animeerimine_sissejuhatus_2.coverage" NAME="Objektide animeerimine sissejuhatus 2 Coverage Results" MODIFIED="1779876344908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong.coverage" NAME="Ping-Pong Coverage Results" MODIFIED="1780653112567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid_lisa.coverage" NAME="Akna loomine ja kujundid lisa Coverage Results" MODIFIED="1779867675351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid_sissejuhatus.coverage" NAME="Tsüklid ja funktsioonid sissejuhatus Coverage Results" MODIFIED="1777880957600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
