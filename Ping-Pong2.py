@@ -7,7 +7,7 @@ pygame.init()
 # 1. Ekraani seaded
 WIDTH, HEIGHT = 640, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Põrkava Palli Mäng - Mängija Juhitav")
+pygame.display.set_caption("Ping-Pong")
 
 # Hele sinine taustavärv (RGB)
 LIGHT_BLUE = (173, 216, 230)
@@ -30,16 +30,17 @@ except FileNotFoundError:
 
 # 2. Palli algseaded
 ball_rect = ball_img.get_rect()
-ball_rect.x = WIDTH // 2
-ball_rect.y = HEIGHT // 4
-ball_speed_x = 4
-ball_speed_y = 4
+# Palli alguspunkt
+ball_pos_x = -5
+ball_pos_y = -5
+ball_speed_x = 8.0
+ball_speed_y = 8.0
 
 # 3. Aluse algseaded
 pad_rect = pad_img.get_rect()
 pad_rect.x = WIDTH // 2 - 60
 pad_rect.y = HEIGHT / 1.5
-pad_speed_x = 7  # Aluse liikumiskiirust võib vajadusel muuta, et mäng oleks sujuvam
+pad_speed_x = 7
 
 # 4. Skoori seaded
 score = 0
@@ -56,16 +57,17 @@ while True:
 
     # --- Mängija sisend (Aluse liigutamine) ---
     keys = pygame.key.get_pressed()
-    # Liiguta vasakule, aga ära lase üle ekraani ääre
     if keys[pygame.K_LEFT] and pad_rect.left > 0:
         pad_rect.x -= pad_speed_x
-    # Liiguta paremale, aga ära lase üle ekraani ääre
     if keys[pygame.K_RIGHT] and pad_rect.right < WIDTH:
         pad_rect.x += pad_speed_x
 
     # --- Palli liigutamine ---
-    ball_rect.x += ball_speed_x
-    ball_rect.y += ball_speed_y
+    ball_pos_x += ball_speed_x
+    ball_pos_y += ball_speed_y
+
+    ball_rect.x = int(ball_pos_x)
+    ball_rect.y = int(ball_pos_y)
 
     # --- Kokkupõrgete tuvastamine ---
 
@@ -84,6 +86,13 @@ while True:
 
     # Pall puutub alust
     if ball_rect.colliderect(pad_rect) and ball_speed_y > 0:
+        ball_speed_y += 0.2
+
+        if ball_speed_x > 0:
+            ball_speed_x += 0.2
+        else:
+            ball_speed_x -= 0.2
+
         ball_speed_y = -ball_speed_y
         score += 1
 
