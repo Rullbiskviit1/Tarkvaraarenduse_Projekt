@@ -40,6 +40,7 @@ hit_sound = pygame.mixer.Sound('alus-sfx.mp3')
 hit_sound.set_volume(0.05)
 
 gover = False
+gameend = False
 
 # 2. Palli algseaded
 ball_rect = ball_img.get_rect()
@@ -100,6 +101,7 @@ while True:
         if gover == False:
             gameover_sound.play()
             gover = True
+            gameend = True
 
     # Pall puutub alust
     if ball_rect.colliderect(pad_rect) and ball_speed_y > 0:
@@ -121,6 +123,9 @@ while True:
     if ball_rect.bottom >= HEIGHT:
         screen.fill(L_GRAY)
 
+    if gameend == True:
+        score_text = font.render(f"MÄNG LÄBI!", True, RED)
+        screen.blit(score_text, (250, 220))
 
     screen.blit(ball_img, ball_rect)
     screen.blit(pad_img, pad_rect)
