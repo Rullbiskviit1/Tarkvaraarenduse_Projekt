@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="pingpong">
+      <change afterPath="$PROJECT_DIR$/Heli lisamine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ping-Pong 6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ping-Pong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ping-Pong2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,73 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000099284504351" />
+      <entry key="MS500" value="1.0998564982039822" />
+      <entry key="S2" value="1.5816351272908236" />
+      <entry key="S5" value="2.221910340677505" />
+      <entry key="S10" value="3.3263764591963314" />
+      <entry key="S30" value="5.87448862553162" />
+      <entry key="S60" value="7.277915180454072" />
+      <entry key="M2" value="8.339188360933226" />
+      <entry key="M5" value="9.574411250186454" />
+      <entry key="M10" value="12.714081961216671" />
+      <entry key="M15" value="16.653805605448298" />
+      <entry key="M30" value="25.976419761982854" />
+      <entry key="H1" value="35.06920388167776" />
+      <entry key="H2" value="41.587394097567376" />
+      <entry key="H4" value="45.52146989051765" />
+      <entry key="D1" value="49.212258046752105" />
+      <entry key="W1" value="49.88640380135801" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.3608799542556694E-218" />
+      <entry key="S5" value="8.896712611420581E-88" />
+      <entry key="S10" value="2.9827357595704953E-44" />
+      <entry key="S30" value="3.101260590190314E-15" />
+      <entry key="S60" value="5.568896292577407E-8" />
+      <entry key="M2" value="2.3599028786795402E-4" />
+      <entry key="M5" value="0.0361451826110936" />
+      <entry key="M10" value="0.22643958039853732" />
+      <entry key="M15" value="0.4714142089560417" />
+      <entry key="M30" value="1.107848816298338" />
+      <entry key="H1" value="1.7911933141084748" />
+      <entry key="H2" value="2.3082387851850705" />
+      <entry key="H4" value="2.628750814368487" />
+      <entry key="D1" value="2.9342535999522457" />
+      <entry key="W1" value="2.9905079338624243" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4668950414811048E-5" />
+      <entry key="MS500" value="0.18493906327566945" />
+      <entry key="S2" value="1.1170497164336577" />
+      <entry key="S5" value="1.9636133892589658" />
+      <entry key="S10" value="3.1412720005237373" />
+      <entry key="S30" value="5.769529607744773" />
+      <entry key="S60" value="7.211927658126434" />
+      <entry key="M2" value="8.299960587555528" />
+      <entry key="M5" value="9.591147959198373" />
+      <entry key="M10" value="12.92645774392676" />
+      <entry key="M15" value="17.112284483401055" />
+      <entry key="M30" value="27.07361163017807" />
+      <entry key="H1" value="36.853038017539234" />
+      <entry key="H2" value="43.8912306961008" />
+      <entry key="H4" value="48.14780279228716" />
+      <entry key="D1" value="52.146074911418665" />
+      <entry key="W1" value="52.87684846614193" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3BylOoy9vhxS0V25ap86oIUymvo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +128,7 @@
     "Python.Objektide animeerimine sissejuhatus 2.executor": "Run",
     "Python.Objektide animeerimine sissejuhatus.executor": "Run",
     "Python.Piltide animeerimine.executor": "Run",
+    "Python.Ping-Pong 6.executor": "Run",
     "Python.Ping-Pong.executor": "Run",
     "Python.Ping-Pong2.executor": "Run",
     "Python.Tekstide ja piltide kasutamine lisa.executor": "Run",
@@ -93,8 +157,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.23567.174" />
-        <option value="bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
   </component>
@@ -117,7 +181,9 @@
       <workItem from="1779186414222" duration="905000" />
       <workItem from="1779863297523" duration="5392000" />
       <workItem from="1780553574992" duration="2333000" />
-      <workItem from="1780652255401" duration="6902000" />
+      <workItem from="1780652255401" duration="7135000" />
+      <workItem from="1780986305458" duration="78000" />
+      <workItem from="1780986479542" duration="6588000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -231,7 +297,14 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1780653924493</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="pingpong">
+      <option name="closed" value="true" />
+      <created>1780659397410</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1780659397410</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,16 +331,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine_lisa.coverage" NAME="Tekstide ja piltide kasutamine lisa Coverage Results" MODIFIED="1777465406665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong2.coverage" NAME="Ping-Pong2 Coverage Results" MODIFIED="1780658552195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Objektide_animeerimine_sissejuhatus.coverage" NAME="Objektide animeerimine sissejuhatus Coverage Results" MODIFIED="1779876490437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid.coverage" NAME="Tsüklid ja funktsioonid Coverage Results" MODIFIED="1779876816338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Piltide_animeerimine.coverage" NAME="Piltide animeerimine Coverage Results" MODIFIED="1780555854147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine.coverage" NAME="Tekstide ja piltide kasutamine Coverage Results" MODIFIED="1777455877950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1779864727177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Objektide_animeerimine_sissejuhatus_2.coverage" NAME="Objektide animeerimine sissejuhatus 2 Coverage Results" MODIFIED="1779876344908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine.coverage" NAME="Tekstide ja piltide kasutamine Coverage Results" MODIFIED="1777455877950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong_6.coverage" NAME="Ping-Pong 6 Coverage Results" MODIFIED="1780993458177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid_sissejuhatus.coverage" NAME="Tsüklid ja funktsioonid sissejuhatus Coverage Results" MODIFIED="1777880957600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine_lisa.coverage" NAME="Tekstide ja piltide kasutamine lisa Coverage Results" MODIFIED="1777465406665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid.coverage" NAME="Tsüklid ja funktsioonid Coverage Results" MODIFIED="1779876816338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid.coverage" NAME="Akna loomine ja kujundid Coverage Results" MODIFIED="1779864727177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong.coverage" NAME="Ping-Pong Coverage Results" MODIFIED="1780653112567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Akna_loomine_ja_kujundid_lisa.coverage" NAME="Akna loomine ja kujundid lisa Coverage Results" MODIFIED="1779867675351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tsüklid_ja_funktsioonid_sissejuhatus.coverage" NAME="Tsüklid ja funktsioonid sissejuhatus Coverage Results" MODIFIED="1777880957600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
