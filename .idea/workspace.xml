@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="pingpong &amp; Ü7">
+    <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Ü7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Uue mängu loomine 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uue mängu loomine 7.py" afterDir="false" />
     </list>
@@ -50,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000012810732" />
-      <entry key="MS500" value="1.0166538552510616" />
-      <entry key="S2" value="1.3592350441361138" />
-      <entry key="S5" value="1.663980878396289" />
-      <entry key="S10" value="1.8173482085999124" />
-      <entry key="S30" value="2.069779175183015" />
-      <entry key="S60" value="2.334897879955105" />
-      <entry key="M2" value="2.590106171528989" />
-      <entry key="M5" value="2.9157902936128917" />
-      <entry key="M10" value="4.636609490402996" />
-      <entry key="M15" value="7.611205874646831" />
-      <entry key="M30" value="17.813716326099936" />
-      <entry key="H1" value="34.04996199269746" />
-      <entry key="H2" value="50.98427339089965" />
-      <entry key="H4" value="63.78331926523136" />
-      <entry key="D1" value="77.7568346955342" />
-      <entry key="W1" value="80.5265039638461" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.090419781254986E-114" />
+      <entry key="S2" value="4.192802143764843E-29" />
+      <entry key="S5" value="4.456584269788693E-12" />
+      <entry key="S10" value="2.1145380156473866E-6" />
+      <entry key="S30" value="0.017545116826138685" />
+      <entry key="S60" value="0.31575705770174894" />
+      <entry key="M2" value="1.7774518171273928" />
+      <entry key="M5" value="5.481603016737615" />
+      <entry key="M10" value="8.089410040705333" />
+      <entry key="M15" value="9.282964156565955" />
+      <entry key="M30" value="12.17370844752276" />
+      <entry key="H1" value="21.626706505644066" />
+      <entry key="H2" value="39.77993471663478" />
+      <entry key="H4" value="59.21497439726918" />
+      <entry key="D1" value="85.97325449818041" />
+      <entry key="W1" value="91.95507765807929" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="4.743402566392893E-193" />
-      <entry key="S30" value="7.798839716954037E-65" />
-      <entry key="S60" value="8.831103963192706E-33" />
-      <entry key="M2" value="9.397602334823555E-17" />
-      <entry key="M5" value="3.9636892302825835E-7" />
-      <entry key="M10" value="7.498543723717761E-4" />
-      <entry key="M15" value="0.01047335263417165" />
-      <entry key="M30" value="0.16512849659771825" />
-      <entry key="H1" value="0.691533500717283" />
-      <entry key="H2" value="1.4342211294778346" />
-      <entry key="H4" value="2.07213053879323" />
-      <entry key="D1" value="2.8201719883284406" />
-      <entry key="W1" value="2.973614500425967" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000127016" />
+      <entry key="S10" value="1.0000035650624093" />
+      <entry key="S30" value="1.0163174756908306" />
+      <entry key="S60" value="1.155881424057393" />
+      <entry key="M2" value="1.5312499677543496" />
+      <entry key="M5" value="2.161544963731016" />
+      <entry key="M10" value="2.5207586209042763" />
+      <entry key="M15" value="2.6654188604377773" />
+      <entry key="M30" value="2.8399436740949424" />
+      <entry key="H1" value="3.1212703857689843" />
+      <entry key="H2" value="3.746992200944775" />
+      <entry key="H4" value="4.517404201712476" />
+      <entry key="D1" value="5.680313319066318" />
+      <entry key="W1" value="5.952140268451206" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.255908661576826E-8" />
-      <entry key="MS500" value="0.04095587107793121" />
-      <entry key="S2" value="0.6691461056406902" />
-      <entry key="S5" value="1.2739997379372745" />
-      <entry key="S10" value="1.5951970584274233" />
-      <entry key="S30" value="1.9886127316158304" />
-      <entry key="S60" value="2.2933289962963457" />
-      <entry key="M2" value="2.569062808644961" />
-      <entry key="M5" value="2.9071486904210313" />
-      <entry key="M10" value="4.6317203864266" />
-      <entry key="M15" value="7.616262113955271" />
-      <entry key="M30" value="17.972891630631125" />
-      <entry key="H1" value="34.73558273326922" />
-      <entry key="H2" value="52.413908676524166" />
-      <entry key="H4" value="65.85252478371163" />
-      <entry key="D1" value="80.57640256168615" />
-      <entry key="W1" value="83.5000288379044" />
+      <entry key="MS100" value="2.280958936515714E-5" />
+      <entry key="MS500" value="0.11792978136192" />
+      <entry key="S2" value="0.5860111418372569" />
+      <entry key="S5" value="0.8075368498270872" />
+      <entry key="S10" value="0.8986359257106284" />
+      <entry key="S30" value="0.9982897628801811" />
+      <entry key="S60" value="1.449910925421971" />
+      <entry key="M2" value="3.289895193732525" />
+      <entry key="M5" value="7.62834442861641" />
+      <entry key="M10" value="10.600325046312788" />
+      <entry key="M15" value="11.941083303336951" />
+      <entry key="M30" value="15.009077339177097" />
+      <entry key="H1" value="24.744053568192804" />
+      <entry key="H2" value="43.52330560296155" />
+      <entry key="H4" value="63.72965335214407" />
+      <entry key="D1" value="91.65289997896022" />
+      <entry key="W1" value="97.90711564062154" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -185,7 +185,7 @@
       <workItem from="1780986305458" duration="78000" />
       <workItem from="1780986479542" duration="8240000" />
       <workItem from="1780995978959" duration="162000" />
-      <workItem from="1780996380106" duration="3069000" />
+      <workItem from="1780996380106" duration="5737000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
@@ -320,7 +320,14 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1780999336055</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Ü7">
+      <option name="closed" value="true" />
+      <created>1781004857128</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1781004857128</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +341,8 @@
     <MESSAGE value="Obje animeerimise sissejuhatus" />
     <MESSAGE value="pingpong" />
     <MESSAGE value="pingpong &amp; Ü7" />
-    <option name="LAST_COMMIT_MESSAGE" value="pingpong &amp; Ü7" />
+    <MESSAGE value="Ü7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ü7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,7 +359,7 @@
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong2.coverage" NAME="Ping-Pong2 Coverage Results" MODIFIED="1780658552195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Objektide_animeerimine_sissejuhatus.coverage" NAME="Objektide animeerimine sissejuhatus Coverage Results" MODIFIED="1779876490437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Piltide_animeerimine.coverage" NAME="Piltide animeerimine Coverage Results" MODIFIED="1780555854147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Uue_mängu_loomine_7.coverage" NAME="Uue mängu loomine 7 Coverage Results" MODIFIED="1780999277595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Uue_mängu_loomine_7.coverage" NAME="Uue mängu loomine 7 Coverage Results" MODIFIED="1781006138384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Objektide_animeerimine_sissejuhatus_2.coverage" NAME="Objektide animeerimine sissejuhatus 2 Coverage Results" MODIFIED="1779876344908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Tekstide_ja_piltide_kasutamine.coverage" NAME="Tekstide ja piltide kasutamine Coverage Results" MODIFIED="1777455877950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tarkvaraarenduse_Projekt$Ping_Pong_6.coverage" NAME="Ping-Pong 6 Coverage Results" MODIFIED="1780997656223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

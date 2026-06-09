@@ -12,10 +12,10 @@ AKNA_KÕRGUS = screen_info.current_h - 60
 
 # Akna loomine
 screen = pygame.display.set_mode((AKNA_LAIUS, AKNA_KÕRGUS))
-pygame.display.set_caption("Ringide kasvatamise mäng")
+pygame.display.set_caption("Ü7")
 
 # 3. Värvid
-HELESININE = (173, 216, 230)
+HELESININE = (154, 204, 255)
 
 # 4. Ringide nimekiri ja algne raadius
 ringid = []
@@ -51,6 +51,11 @@ while running:
                 # D. Kui ringe on üle 10, kustutame kõige vanema
                 if len(ringid) > 10:
                     ringid.pop(0)
+
+                if hetke_raadius > AKNA_KÕRGUS / 2:
+                    hetke_raadius = 10
+                else:
+                    hetke_raadius == hetke_raadius
 
     # 5. Ekraani joonistamine
     screen.fill(HELESININE)
