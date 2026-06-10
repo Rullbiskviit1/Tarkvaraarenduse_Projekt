@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="842baec1-3b68-4b54-b65d-02458127a826" name="Changes" comment="Ü7">
+      <change beforePath="$PROJECT_DIR$/.idea/Tarkvaraarenduse_Projekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tarkvaraarenduse_Projekt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uue mängu loomine 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uue mängu loomine 7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rullbiskviit1/Tarkvaraarenduse_Projekt&quot;,
-    &quot;accountId&quot;: &quot;e0386431-07c6-4356-b36e-4c443ae96e06&quot;
+    &quot;url&quot;: &quot;https://github.com/Rullbiskviit1/Tarkvaraarenduse_Projekt.git&quot;,
+    &quot;accountId&quot;: &quot;4a9bb221-4632-4a52-97c9-17abed85262d&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -149,7 +149,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -157,7 +157,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
         <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
@@ -186,6 +185,8 @@
       <workItem from="1780986479542" duration="8240000" />
       <workItem from="1780995978959" duration="162000" />
       <workItem from="1780996380106" duration="5737000" />
+      <workItem from="1781073040349" duration="2782000" />
+      <workItem from="1781076877956" duration="52000" />
     </task>
     <task id="LOCAL−00001" summary="Akna loomise ülesanne">
       <option name="closed" value="true" />
